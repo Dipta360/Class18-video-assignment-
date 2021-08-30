@@ -295,11 +295,12 @@ span {
     margin-bottom: 30px;
     padding: 25px;
     box-sizing: border-box;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .1);
     transition: .4s;
 }
 
 .service-box:hover{
-    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .1);
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, .2);
 }
 
 .service-box:nth-child(3n+3) {
@@ -614,8 +615,14 @@ span {
     box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .2);
     padding: 50px 40px;
     box-sizing: border-box;
+    border-radius: 5px;
     margin-bottom: 60px;
     position: relative;
+    transition: .4s;
+}
+
+.f-content:hover{
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .4);
 }
 
 .f-content::after {
