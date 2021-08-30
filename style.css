@@ -188,6 +188,10 @@ span {
     display: block;
 }
 
+.primary-menu ul li .dropdown li:last-child a{
+    border-bottom: none;
+}
+
 /* banner section */
 
 .banner-section {
